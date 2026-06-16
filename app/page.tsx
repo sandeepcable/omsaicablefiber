@@ -14,7 +14,7 @@ export default function Page() {
         <img
           src="/images/logo.png"
           alt="Om Sai Cable Logo"
-          className="w-72 md:w-96 mx-auto mb-6 rounded-xl"
+          className="w-80 md:w-[500px] mx-auto mb-6"
         />
 
         <h1 className="text-4xl md:text-6xl font-extrabold mb-4">
