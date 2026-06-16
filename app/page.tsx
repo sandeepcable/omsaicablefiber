@@ -14,6 +14,11 @@ export default function Page() {
       <section className="bg-gradient-to-r from-blue-700 to-cyan-500 text-white py-20 text-center">
         <h1 className="text-5xl font-bold mb-4">
           Om Sai Cable & Fiber Net
+          <img
+  src="/images/logo.png"
+  alt="Om Sai Cable Logo"
+  className="w-40 mx-auto mb-6"
+/>
         </h1>
 
         <p className="text-xl">
