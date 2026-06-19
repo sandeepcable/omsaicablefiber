@@ -1,5 +1,6 @@
 import React from "react";
 
+"use client";
 export default function Page() {
   const plans = [
     { name: "TV Basic Pack", price: "₹300/month", extra: "₹3200/year" },
