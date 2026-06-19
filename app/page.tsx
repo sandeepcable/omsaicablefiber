@@ -150,6 +150,24 @@ export default function Page() {
         <p className="mt-2">📞 +91 9440369950</p>
         <p>📞 +91 9010653125</p>
       </section>
+      {/* Google Maps */}
+<section className="py-16 bg-gray-100">
+  <h2 className="text-4xl font-extrabold text-center mb-10">
+    Our Location
+  </h2>
+
+  <div className="max-w-6xl mx-auto px-6">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!3m2!1sen!2sin!4v1781865045087!5m2!1sen!2sin!6m8!1m7!1siEVni0azeJbS8zMkXDW-BQ!2m2!1d18.7283548220421!2d78.52411561027591!3f21.563941014748217!4f5.521472392638032!5f0.4000000000000002"
+      width="100%"
+      height="450"
+      style={{ border: 0 }}
+      loading="lazy"
+      referrerPolicy="no-referrer-when-downgrade"
+      className="rounded-2xl shadow-lg"
+    ></iframe>
+  </div>
+</section>
 
       <footer className="bg-black text-white py-8 text-center px-6">
         <h3 className="text-2xl font-bold mb-3">Om Sai Cable & Fiber Net</h3>
