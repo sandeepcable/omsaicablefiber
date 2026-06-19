@@ -158,8 +158,7 @@ export default function Page() {
 
   <div className="max-w-6xl mx-auto px-6">
     <iframe
-      src="https://www.google.com/maps/embed?pb=!3m2!1sen!2sin!4v1781865045087!5m2!1sen!2sin!6m8!1m7!1siEVni0azeJbS8zMkXDW-BQ!2m2!1d18.7283548220421!2d78.52411561027591!3f21.563941014748217!4f5.521472392638032!5f0.4000000000000002"
-      width="100%"
+      src="https://www.google.com/maps/embed?pb=!3m2!1sen!2sin!4v1781867269412!5m2!1sen!2sin!6m8!1m7!1siEVni0azeJbS8zMkXDW-BQ!2m2!1d18.7283548220421!2d78.52411561027591!3f311.39431345277706!4f11.987207761764381!5f0.7820865974627469"
       height="450"
       style={{ border: 0 }}
       loading="lazy"
