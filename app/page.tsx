@@ -167,6 +167,76 @@ export default function Page() {
     ></iframe>
   </div>
 </section>
+{/* New Connection Form */}
+<section className="py-16 bg-white px-6">
+  <div className="max-w-3xl mx-auto bg-gray-100 rounded-3xl shadow-lg p-8">
+    <h2 className="text-4xl font-extrabold text-center mb-6">
+      New Connection Request
+    </h2>
+
+    <p className="text-center text-gray-600 mb-8">
+      Fill your details and send enquiry directly on WhatsApp.
+    </p>
+
+    <form
+      className="grid gap-4"
+      onSubmit={(e) => {
+        e.preventDefault();
+
+        const form = e.currentTarget;
+        const name = (form.elements.namedItem("name") as HTMLInputElement).value;
+        const mobile = (form.elements.namedItem("mobile") as HTMLInputElement).value;
+        const village = (form.elements.namedItem("village") as HTMLInputElement).value;
+        const service = (form.elements.namedItem("service") as HTMLSelectElement).value;
+        const message = (form.elements.namedItem("message") as HTMLTextAreaElement).value;
+
+        const text = `New Connection Request%0AName: ${name}%0AMobile: ${mobile}%0AVillage: ${village}%0AService: ${service}%0AMessage: ${message}`;
+        window.open(`https://wa.me/919010653125?text=${text}`, "_blank");
+      }}
+    >
+      <input
+        name="name"
+        required
+        placeholder="Your Name"
+        className="p-4 rounded-xl border"
+      />
+
+      <input
+        name="mobile"
+        required
+        placeholder="Mobile Number"
+        className="p-4 rounded-xl border"
+      />
+
+      <input
+        name="village"
+        required
+        placeholder="Village Name"
+        className="p-4 rounded-xl border"
+      />
+
+      <select name="service" className="p-4 rounded-xl border">
+        <option>Fiber Internet</option>
+        <option>Cable TV</option>
+        <option>OTT Services</option>
+        <option>TV Accessories</option>
+      </select>
+
+      <textarea
+        name="message"
+        placeholder="Message"
+        className="p-4 rounded-xl border"
+      />
+
+      <button
+        type="submit"
+        className="bg-green-500 text-white p-4 rounded-xl font-bold"
+      >
+        Submit on WhatsApp
+      </button>
+    </form>
+  </div>
+</section>
 
       <footer className="bg-black text-white py-8 text-center px-6">
         <h3 className="text-2xl font-bold mb-3">Om Sai Cable & Fiber Net</h3>
