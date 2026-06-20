@@ -159,7 +159,7 @@ export default function Page() {
 
   <div className="max-w-6xl mx-auto px-6">
     <iframe
-      src="https://www.google.com/maps/embed?pb=!3m2!1sen!2sin!4v1781867269412!5m2!1sen!2sin!6m8!1m7!1siEVni0azeJbS8zMkXDW-BQ!2m2!1d18.7283548220421!2d78.52411561027591!3f311.39431345277706!4f11.987207761764381!5f0.7820865974627469"
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d249.67603655029365!2d78.52380242076168!3d18.728548732381622!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcda47da063fea7%3A0x6e5bef8c71ea96!2sKonasamandar%2C%20Telangana%20503307!5e0!3m2!1sen!2sin!4v1781935027891!5m2!1sen!2sin"
       width="100%"
       height="450"
       style={{ border: 0 }}
