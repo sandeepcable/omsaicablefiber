@@ -21,7 +21,7 @@ export default function Page() {
     <img
       src="/images/logo.png"
       alt="Om Sai Cable Logo"
-      className="w-[350px] md:w-[600px] mx-auto mb-8"
+      className="w-[320px] md:w-[500px] mx-auto mb-6"
     />
 
     <p className="inline-block bg-white/15 px-5 py-2 rounded-full text-sm md:text-base mb-6">
@@ -92,10 +92,36 @@ export default function Page() {
         </div>
       </section>
 
-      <section className="max-w-6xl mx-auto py-16 px-6">
-        <h2 className="text-4xl font-extrabold text-center mb-10">
-          TV Accessories
-        </h2>
+<section className="py-16 bg-white px-6">
+  <div className="max-w-6xl mx-auto">
+    <h2 className="text-4xl font-extrabold text-center mb-10">
+      Service Coverage Areas
+    </h2>
+
+    <div className="grid md:grid-cols-3 gap-6">
+      {[
+        "Konasamundar",
+        "Kammarpalli",
+        "Bheemgal",
+        "Nizamabad Rural",
+        "Nearby Villages",
+        "Telangana",
+      ].map((area) => (
+        <div
+          key={area}
+          className="bg-blue-50 border border-blue-200 rounded-2xl p-6 text-center font-bold text-lg shadow-md"
+        >
+          ✅ {area}
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
+
+<section className="max-w-6xl mx-auto py-16 px-6">
+  <h2 className="text-4xl font-extrabold text-center mb-10">
+    TV Accessories
+  </h2>
 
         <div className="grid md:grid-cols-3 gap-8">
           {[
