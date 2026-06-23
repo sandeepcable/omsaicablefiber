@@ -11,38 +11,67 @@ export default function Page() {
 
   return (
     <main className="min-h-screen bg-gray-50 text-gray-900">
-      <section className="bg-gradient-to-r from-blue-700 to-cyan-500 text-white py-16 px-6 text-center">
-        <img
-          src="/images/logo.png"
-          alt="Om Sai Cable Logo"
-          className="w-80 md:w-[500px] mx-auto mb-6"
-        />
+      <section className="relative overflow-hidden bg-slate-950 text-white py-24 px-6 text-center">
+  <div className="absolute inset-0 bg-gradient-to-r from-blue-950 via-blue-800 to-cyan-500"></div>
 
-        <h1 className="text-4xl md:text-6xl font-extrabold mb-4">
-          Om Sai Cable & Fiber Net
-        </h1>
+  <div className="absolute -top-24 -left-24 w-80 h-80 bg-cyan-400 rounded-full blur-3xl opacity-30"></div>
+  <div className="absolute bottom-0 right-0 w-96 h-96 bg-blue-500 rounded-full blur-3xl opacity-30"></div>
 
-        <p className="text-lg md:text-xl">
-          Fast Fiber Internet • Digital TV • OTT Services
-        </p>
+  <div className="relative max-w-6xl mx-auto">
+    <img
+      src="/images/logo.png"
+      alt="Om Sai Cable Logo"
+      className="w-44 md:w-64 mx-auto mb-8 rounded-xl shadow-2xl"
+    />
 
-        <div className="mt-8 flex justify-center gap-4 flex-wrap">
-          <a
-            href="tel:+919440369950"
-            className="bg-white text-blue-700 px-6 py-3 rounded-xl font-bold hover:scale-105 transition"
-          >
-            Call Now
-          </a>
+    <p className="inline-block bg-white/15 px-5 py-2 rounded-full text-sm md:text-base mb-6">
+      Konasamundar • Nizamabad • Telangana
+    </p>
 
-          <a
-            href="https://wa.me/919010653125"
-            target="_blank"
-            className="bg-green-500 px-6 py-3 rounded-xl font-bold hover:scale-105 transition"
-          >
-            WhatsApp
-          </a>
-        </div>
-      </section>
+    <h1 className="text-4xl md:text-7xl font-extrabold mb-6 leading-tight">
+      High Speed Fiber Internet <br />
+      & Digital TV Services
+    </h1>
+
+    <p className="text-lg md:text-2xl text-blue-100 mb-10">
+      Reliable Cable TV, Fiber Internet, OTT Services & TV Accessories
+    </p>
+
+    <div className="grid md:grid-cols-3 gap-4 max-w-4xl mx-auto mb-10">
+      <div className="bg-white/15 backdrop-blur p-5 rounded-2xl">
+        <h3 className="text-3xl font-extrabold">350+</h3>
+        <p>Happy Customers</p>
+      </div>
+
+      <div className="bg-white/15 backdrop-blur p-5 rounded-2xl">
+        <h3 className="text-3xl font-extrabold">24/7</h3>
+        <p>Customer Support</p>
+      </div>
+
+      <div className="bg-white/15 backdrop-blur p-5 rounded-2xl">
+        <h3 className="text-3xl font-extrabold">40 Mbps</h3>
+        <p>Affordable Fiber Plans</p>
+      </div>
+    </div>
+
+    <div className="flex justify-center gap-4 flex-wrap">
+      <a
+        href="tel:+919440369950"
+        className="bg-white text-blue-800 px-8 py-4 rounded-2xl font-bold shadow-xl hover:scale-105 transition"
+      >
+        📞 Call Now
+      </a>
+
+      <a
+        href="https://wa.me/919010653125"
+        target="_blank"
+        className="bg-green-500 px-8 py-4 rounded-2xl font-bold shadow-xl hover:scale-105 transition"
+      >
+        📲 WhatsApp Us
+      </a>
+    </div>
+  </div>
+</section>
 
       <section className="max-w-6xl mx-auto py-16 px-6">
         <h2 className="text-4xl font-extrabold text-center mb-10">
