@@ -21,7 +21,7 @@ export default function Page() {
     <img
       src="/images/logo.png"
       alt="Om Sai Cable Logo"
-      className="w-44 md:w-64 mx-auto mb-8 rounded-xl shadow-2xl"
+      className="w-[350px] md:w-[600px] mx-auto mb-8"
     />
 
     <p className="inline-block bg-white/15 px-5 py-2 rounded-full text-sm md:text-base mb-6">
